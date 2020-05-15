@@ -15,6 +15,7 @@ video{
 
 .home{
     min-width: max-content;
+    max-width: 100%;
     position: relative;
     top: 15%;
     display: flex;
@@ -100,22 +101,49 @@ button:hover{
 
 .content{
     display: flex;
-    flex: 3;
-    min-width: 40%;
-    background-color: rgba(255,255,255,0.35);
-    margin: 5px;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
+    flex: 3;
+    min-width: 50%;
+    background-color: rgba(255,255,255,0.4);
+    margin: 5px;
 }
 
 .socials{
     margin: 8px;
     flex: 1;
-    background-color: green;
-    border-style: solid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 #icon{
-    color: red;
     font-size: 30px;
-    margin: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+#icon:hover{
+    transition-duration: 0.75s;
+    color: white;
+}
+
+img{
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 300px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 18px;
+    padding: 0px;
+    margin:0;
+    width: 100%;
+    max-width:400px;
+    padding: 10px;    
+    
+
 }
