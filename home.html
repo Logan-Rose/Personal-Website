@@ -4,49 +4,54 @@
     <script src="https://kit.fontawesome.com/39d4b11738.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-    <video autoplay muted loop id="myVideo">
-		  <source src="lake.mp4" type="video/mp4">
-    </video>
     
-    <div class="home">
-      <div class="welcome">
-        <div class="greeting">
-          <h1>Hi,</h1>
-          <h2>I'm Logan</h2>
+    <div class="page">
+      <video autoplay muted loop id="myVideo"><source src="lake.mp4" type="video/mp4"></video>
+      <div class="home">
+        <div class="welcome">
+          <div class="greeting">
+            <h1>Hi,</h1>
+            <h2>I'm Logan</h2>
 
+          </div>
+          
+        <div class="menu">
+            <button onclick="show()" class="work">My work</button>
+            <button onclick = "showResume()" class="resume">My Resume</button>
+          </div>
+          <div class="filler"></div>
+          <div class="socials">
+            <a href="http://github.com/Logan-Rose">
+              <i id = icon class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/logan-rose">
+              <i id = icon class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
         </div>
-        
-       <div class="menu">
-          <button onclick="show()" class="work">My work</button>
-          <button onclick = "showResume()" class="resume">My Resume</button>
-        </div>
-        <div class="socials">
-          <i id = icon class="fab fa-github"></i>
-          <i id = icon class="fab fa-linkedin-in"></i>
-          <i id = icon class="fas fa-at"></i>
+
+        <div class ="content">
+          <image src="me.jpg"></image>
+          <span class="description">
+            I am a second-year Computer Science student studying at uOttawa in Ontario, Canada. 
+            I created this website to showcase what I am learning and have learned about computer science over the past couple of years.
+            Some projects I am particularly proud of include: 
+            <ul>
+              <li>An Interactive solver for the travelling salesman problem (Javascript)</li>
+              <li>A visualizer for various sorting algorithms (Python)</li>
+              <li>A cellular Automaton simulator(Javascript)</li>
+              <li>An android app for healthcare clinics and patients (Java)</li>
+            </ul>
+            If you would like to see these and other projects, click on "My Work" to take a look!<br>
+          </span>
         </div>
       </div>
-
-      <div class ="content">
-        <image src="me.jpg"></image>
-        <span class="description">
-          I am a second-year Computer Science student studying at uOttawa in Ontario, Canada. 
-          I created this website to showcase what I am learning and have learned about computer science over the past couple of years.
-          Some projects I am particularly proud of include: 
-          <ul>
-            <li>An Interactive solver for the travelling salesman problem (Javascript)</li>
-            <li>A visualizer for various sorting algorithms (Python)</li>
-            <li>A cellular Automaton simulator(Javascript)</li>
-            <li>An android app for healthcare clinics and patients (Java)</li>
-          </ul>
-          If you would like to see these and other projects, click on "My Work" to take a look!<br>
-        </span>
-      </div>
-      
     </div>
 
+    <page class="page"></page>
+    <page class="page"></page>
+    <page class="page"></page>
     <script src="main.js"></script>
-
   </body>
 
 </html>
