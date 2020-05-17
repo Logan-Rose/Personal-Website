@@ -1,5 +1,7 @@
 body{
     position:absolute;
+    display: flex;
+    flex-direction: column;
     margin:0px;
     padding:0px;
     top: 0px;
@@ -14,10 +16,11 @@ body{
     display: flex;
     flex-direction: row;
     flex:1;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: center;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
+    background-color: black;
 }
 video{
     height: 25%;
@@ -35,7 +38,7 @@ video{
     display: flex;
     flex: 1;
     margin: 0 15%;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
     
 }
@@ -143,7 +146,7 @@ button:hover{
     color: white;
 }
 
-img{
+.headshot{
     margin: 15px;
     height: 250px;
     width: 250px;
@@ -164,6 +167,39 @@ a{
     width: 100%;
     max-width:400px;
     padding: 10px;    
-    
+}
+
+.info{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    border: solid 2px green;
+    height: 100%;
 
 }
+h3{
+    font-size:36px;
+}
+.explanation{
+    font-size: 24px;
+    text-align: center;
+}
+.skillsShowcase{
+    font-size: 24;
+}
+
+.sortShowcase{
+    flex:1;
+    align-self: center;
+}
+.sortingImages{}
