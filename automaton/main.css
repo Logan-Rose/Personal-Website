@@ -1,0 +1,71 @@
+
+canvas{
+    background-color: aliceblue;
+    margin: 0px;
+    padding:0px;
+    flex:10;
+
+}
+.control{
+    flex: 1;
+    padding: 25px;
+    border-bottom: solid 1px plum;
+    display: flex;
+
+}
+body{
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+html {
+    height: 100%;
+    background-color: white;
+}
+button{
+    min-height: 30px;
+    min-width: 110px;
+    background-color: white;
+    border: solid 2px #50BFE6;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    color:plum;
+    margin-top: 10px;
+}
+button:hover{
+    transition-duration: 0.5s;
+    background-color: #50BFE6;
+    color: white;
+}
+.controlSection{
+    border: solid 3px plum;
+    border-radius: 10px;
+    width:fit-content;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.speedPicker{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+    padding: 2px;
+    color:plum;
+    border-bottom: solid 2px plum;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+    font-size: 2em;
+    padding: 2px;
+    color:plum;
+
+}

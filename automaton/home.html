@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="control">
+        <div class="controlSection">
+            <span class="title">The Game of Life</span><br>
+        </div>
+
+        <div class="controlSection">
+            <span class="speedPicker">Pick a speed</span><br>
+            <button id="slow" onclick="setSpeed(500)">Slow</button>
+            <button id="medium" onclick="setSpeed(250)">Medium</button>
+            <button id="fast" onclick="setSpeed(30)">Fast</button>
+        </div>
+
+        <div class="controlSection">
+            <span class="speedPicker">Visualize!</span><br>
+            <button onclick="play()">Play</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="clearBoard()">Reset</button>
+        </div>
+
+        <button onclick="gosperGun()">gosper gun</button>
+    </div>
+    <canvas id="board"></canvas>
+</body>
+<script src='canvas.js'></script>
+</html>
